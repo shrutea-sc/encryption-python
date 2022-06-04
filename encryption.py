@@ -12,4 +12,4 @@ with open('C:/Users/Shruti Chauhan/eg.png', 'rb') as file:
 encrypted = fernet.encrypt(original)
 with open('C:/Users/Shruti Chauhan/eg.png', 'wb') as encrypted_file:
     encrypted_file.write(encrypted)
-
+#file encrypted
